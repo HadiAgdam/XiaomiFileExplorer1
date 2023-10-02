@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        style="@style/Text.t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="توجه"
+        android:textStyle="bold" />
+
+    <TextView
+        style="@style/Text.t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="نمی توان به فایل ها دسترسی پیدا کرد به مدیریت فایل ها اجازه دسترسی به فایل را در تنظیمات بدهید"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/acceptView"
+        style="@style/Text.t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="تایید"
+        android:textColor="@color/primary" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.intro.IntroActivity">
+
+
+    <LinearLayout
+        android:padding="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/baseline_folder_copy_24" />
+
+        <TextView
+            style="@style/Text.t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="@string/welcome" />
+
+        <TextView
+            style="@style/Text.t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/welcome_short_description" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                style="@style/Text.t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@drawable/welcome_icon_1"
+                android:gravity="center"
+                android:text="@string/welcome_special1" />
+
+            <TextView
+                style="@style/Text.t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:drawableRight="@drawable/welcome_icon_2"
+                android:gravity="center"
+                android:text="@string/welcome_special2" />
+
+        </LinearLayout>
+
+        <TextView
+            android:textColor="@color/black"
+            style="@style/Text.t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="@string/welcome_long_description" />
+
+        <Button
+            android:id="@+id/acceptButton"
+            style="@style/Button.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="38dp"
+            android:text="@string/accept" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FileExplorer</string>
+    <string name="welcome">Welcome to FileManager</string>
+    <string name="welcome_short_description">Welcome To FileManager! Here is some futures off this app makes it special:</string>
+    <string name="welcome_special1">دسته بندی موارد تازه استفاده شده</string>
+    <string name="welcome_special2">نمایش و ویرایش فایل ها</string>
+    <string name="welcome_long_description">مدیریت فایل ها به منظور اراعه خدمات پایه ای که آمار مصرف تولید می کندد نیاز به گردآوری اطلاعات شخصی لازم دارد. شما می توانید در ؛سیاست حفظ حریم خصوصی؛ ما از چگونگی به کارگیری اطلاعاتی ؛توافق نامه کاربر؛ و ؛سیاست حفظ حریم خصوص؛ مارا خوانده و بپذیرید. شما در هر زمانی می توانید در تنظیمات رضایت خود را نسبت به سیاست حفظ حریم خصوصی دانلودها پس بگیرید. چنانچه نپیذیرید از خدمات ذکر شده در بالا استفاده کنید نمی توانید از برخی ویژگی های این برنامه استفاده نمایید. با این وجود٬ کارایی های پایه ای همجنان برای شما در دسترس خواهند بود.</string>
+    <string name="accept">پذیرفتن و ادامه</string>
+</resources>
